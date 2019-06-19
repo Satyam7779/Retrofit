@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    
     private void getData()
     {
         Call<PostList> postList =BloggerAPI.getService().getPostList();
